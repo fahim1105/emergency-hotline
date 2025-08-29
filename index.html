@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergency Services</title>
+    <title>National Service Directory</title>
+    <link rel="shortcut icon" href="favicon/logo.png" type="image/x-icon">
     <!-- Tailwind and daisyUI CDN Setup -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
@@ -16,7 +17,7 @@
      <nav class="flex items-center justify-between px-[5px] md:px-[60px] mt-[10px] md:mt-[20px]">
         <div class="flex items-center gap-[10px]">
             <div>
-                <img class="h-[40px] md:h-[50px]" src="assets/download.png" alt="">
+                <img class="h-[40px] md:h-[50px]" src="assets/logo.png" alt="">
             </div>
             <div class="font-extrabold text-[#006747] hidden md:block">
                 <h2>Emergency <br> Service</h2>
@@ -42,14 +43,14 @@
       </div>
     <!-- Card Section -->
 
-    <div class="flex flex-col md:flex-row  gap-6 p-6 bg-[#41ff6a22]">
+    <div class="flex flex-col md:flex-row  gap-6 p-6 bg-[#41ff6a22] ">
         <!-- left Div cards -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 flex-1">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 flex-1 ">
             <!-- National Emergency Number -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/emergency.png" alt="">
-                    <img id="national_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="national_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">National Emergency Number</h2>
@@ -63,10 +64,10 @@
                 </div>
             </div>
             <!-- Police Helpline Number -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/police.png" alt="">
-                    <img id="police_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="police_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">Police Helpline Number</h2>
@@ -80,10 +81,10 @@
                 </div>
             </div>
             <!-- Fire Service Number -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/fire-service.png" alt="">
-                    <img id="fire_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="fire_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">Fire Service Number</h2>
@@ -97,10 +98,10 @@
                 </div>
             </div>
             <!-- Ambulance Service -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/ambulance.png" alt="">
-                    <img id="ambulance_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="ambulance_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">Ambulance Service</h2>
@@ -114,10 +115,10 @@
                 </div>
             </div>
             <!-- Women & Child Helpline -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/emergency.png" alt="">
-                    <img id="women_and_child_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="women_and_child_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">Women & Child Helpline</h2>
@@ -131,10 +132,10 @@
                 </div>
             </div>
             <!-- Anti-Corruption Helpline -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/emergency.png" alt="">
-                    <img id="curruption_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="curruption_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">Anti-Corruption Helpline</h2>
@@ -148,10 +149,10 @@
                 </div>
             </div>
             <!-- Electricity Helpline -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/emergency.png" alt="">
-                    <img id="electricity_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="electricity_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">Electricity Helpline</h2>
@@ -165,10 +166,10 @@
                 </div>
             </div>
             <!-- Brac Helpline -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/brac.png" alt="">
-                    <img id="brac_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="brac_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">Brac Helpline</h2>
@@ -182,10 +183,10 @@
                 </div>
             </div>
             <!-- Bangladesh Railway Helpline  -->
-            <div class="bg-white p-6 rounded-xl shadow">
+            <div class="bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
                 <div class="flex items-center justify-between">
                     <img class="bg-[#f6c1c1] rounded-xl p-[10px] h-[50px] " src="assets/Bangladesh-Railway.png" alt="">
-                    <img id="railway_heart" class="h-[20px]" src="assets/heart.png" alt="">
+                    <p id="railway_heart" class="h-[20px]"><i class="fa-solid fa-heart"></i></p>
                 </div>
                 <div>
                     <h2 class="text-[22px] mt-[16px] font-bold">Bangladesh Railway Helpline </h2>
@@ -200,7 +201,7 @@
             </div>
         </div>
         <!-- Right Div Call history  -->
-        <div class= "w-full md:w-72 bg-white p-6 rounded-xl shadow">
+        <div class= "w-full md:w-72 bg-white p-6 rounded-xl shadow-lg shadow-[#0d0d0d6d]">
             <div class="flex items-center justify-between mb-[16px]">
                 <h1><i class="fa-solid fa-clock-rotate-left"></i> <span class="font-bold text-[14px]">Call History</span></h1>
                 <button id="clear_button" class="btn btn-outline bg-green-600 text-white w-[80px] h-[45px] text-[18px] rounded-4xl">Clear</button>

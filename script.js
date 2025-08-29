@@ -3,6 +3,10 @@
 // National Emergency Number
 document.getElementById('national_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("national_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
@@ -12,6 +16,10 @@ document.getElementById('national_heart').addEventListener("click", function(){
 // Police Helpline Number
 document.getElementById('police_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("police_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
@@ -21,6 +29,10 @@ document.getElementById('police_heart').addEventListener("click", function(){
 // Fire Service Number
 document.getElementById('fire_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("fire_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
@@ -30,6 +42,10 @@ document.getElementById('fire_heart').addEventListener("click", function(){
 // Ambulance Service
 document.getElementById('ambulance_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("ambulance_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
@@ -39,6 +55,10 @@ document.getElementById('ambulance_heart').addEventListener("click", function(){
 // Women And Child Helpline
 document.getElementById('women_and_child_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("women_and_child_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
@@ -48,6 +68,10 @@ document.getElementById('women_and_child_heart').addEventListener("click", funct
 // Anti-Corruption Helpline
 document.getElementById('curruption_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("curruption_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
@@ -57,6 +81,10 @@ document.getElementById('curruption_heart').addEventListener("click", function()
 // Electricity 
 document.getElementById('electricity_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("electricity_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
@@ -66,6 +94,10 @@ document.getElementById('electricity_heart').addEventListener("click", function(
 // Brac Helpline
 document.getElementById('brac_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("brac_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
@@ -75,6 +107,10 @@ document.getElementById('brac_heart').addEventListener("click", function(){
 // Bangladesh Railway Helpline
 document.getElementById('railway_heart').addEventListener("click", function(){
   // console.log("Done")
+
+  // Change The heart Color>>>
+  document.getElementById("railway_heart").classList.add("text-red-500")
+
   const heart = document.getElementById('heart');
   const heartInnerText = parseInt(heart.innerText);
   const newHeartValue = heartInnerText + 1 ;
