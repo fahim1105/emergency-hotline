@@ -620,7 +620,16 @@ document.getElementById('railway_copy').addEventListener("click", function(){
 // Clear Call History >>>>>>>>>>>
 
 document.getElementById('clear_button').addEventListener("click", function(){
-  document.getElementById('call_history').classList.add("hidden")
+  const historyClear = document.getElementById('call_history')
+  historyClear.innerHTML=""
   alert("All call history has been cleared")
+
+  // When coin is 0 and there is some call history then if click on clear button it add 40 extra coin
+  const navCoin = parseInt(document.getElementById("coin").innerText)
+  if ( navCoin === 0 ){
+    zeroCoin = navCoin + 40 ;
+    document.getElementById("coin").innerText = zeroCoin;
+    alert("You have received 40 coin bonus for clearing the call history ✨")
+  }
 })
 
