@@ -1,122 +1,122 @@
 // Increase Heart Count >>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-// National Emergency Number
-document.getElementById('national_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("national_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
-// Police Helpline Number
-document.getElementById('police_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("police_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
-// Fire Service Number
-document.getElementById('fire_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("fire_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
-// Ambulance Service
-document.getElementById('ambulance_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("ambulance_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
-// Women And Child Helpline
-document.getElementById('women_and_child_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("women_and_child_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
-// Anti-Corruption Helpline
-document.getElementById('curruption_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("curruption_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
-// Electricity 
-document.getElementById('electricity_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("electricity_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
-// Brac Helpline
-document.getElementById('brac_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("brac_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
-// Bangladesh Railway Helpline
-document.getElementById('railway_heart').addEventListener("click", function(){
-  // console.log("Done")
-
-  // Change The heart Color>>>
-  document.getElementById("railway_heart").classList.add("text-red-500")
-
-  const heart = document.getElementById('heart');
-  const heartInnerText = parseInt(heart.innerText);
-  const newHeartValue = heartInnerText + 1 ;
-  // console.log(newHeartValue)
-  document.getElementById('heart').innerText = newHeartValue
-})
+    // National Emergency Number
+    document.getElementById('national_heart').addEventListener("click", function(){
+          // console.log("Done")
+    
+          // Change The heart Color>>>
+      document.getElementById("national_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+          // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
+    // Police Helpline Number
+    document.getElementById('police_heart').addEventListener("click", function(){
+          // console.log("Done")
+    
+          // Change The heart Color>>>
+      document.getElementById("police_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+          // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
+    // Fire Service Number
+    document.getElementById('fire_heart').addEventListener("click", function(){
+      // console.log("Done")
+    
+      // Change The heart Color>>>
+      document.getElementById("fire_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+      // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
+    // Ambulance Service
+    document.getElementById('ambulance_heart').addEventListener("click", function(){
+      // console.log("Done")
+    
+      // Change The heart Color>>>
+      document.getElementById("ambulance_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+      // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
+    // Women And Child Helpline
+    document.getElementById('women_and_child_heart').addEventListener("click", function(){
+      // console.log("Done")
+    
+      // Change The heart Color>>>
+      document.getElementById("women_and_child_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+      // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
+    // Anti-Corruption Helpline
+    document.getElementById('curruption_heart').addEventListener("click", function(){
+      // console.log("Done")
+    
+      // Change The heart Color>>>
+      document.getElementById("curruption_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+      // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
+    // Electricity 
+    document.getElementById('electricity_heart').addEventListener("click", function(){
+      // console.log("Done")
+    
+      // Change The heart Color>>>
+      document.getElementById("electricity_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+      // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
+    // Brac Helpline
+    document.getElementById('brac_heart').addEventListener("click", function(){
+      // console.log("Done")
+    
+      // Change The heart Color>>>
+      document.getElementById("brac_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+      // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
+    // Bangladesh Railway Helpline
+    document.getElementById('railway_heart').addEventListener("click", function(){
+      // console.log("Done")
+    
+      // Change The heart Color>>>
+      document.getElementById("railway_heart").classList.add("text-red-500")
+    
+      const heart = document.getElementById('heart');
+      const heartInnerText = parseInt(heart.innerText);
+      const newHeartValue = heartInnerText + 1 ;
+      // console.log(newHeartValue)
+      document.getElementById('heart').innerText = newHeartValue
+    })
 
 // Call Alert Section >>>>>>>>>>>>>>>>>>>>>>>>>>>
 
@@ -621,28 +621,6 @@ document.getElementById('railway_copy').addEventListener("click", function(){
 
 document.getElementById('clear_button').addEventListener("click", function(){
   document.getElementById('call_history').classList.add("hidden")
+  alert("All call history has been cleared")
 })
 
-// Adding History >>>>>>>>>>>>>...
-
-//  document.getElementById("national_btn").addEventListener("click", function () {
-//         const number = document.getElementById("national_num").innerText; 
-//         const callHistory = document.getElementById("call_history");
-
-//         // Local time নেওয়া
-//         const now = new Date();
-//         const time = now.toLocaleTimeString(); // eg: 11:36:58 AM
-
-//         // History div add করা
-//         callHistory.innerHTML += `
-//             <div class="flex justify-between items-center mb-[8px] bg-[#3333331a] p-[12px] rounded-xl">
-//                 <div>
-//                     <h3 class="text-[15px] font-semibold">National Emergency Number</h3>
-//                     <p class="text-[15px] text-[#5c5c5c] font-bold">${number}</p>
-//                 </div>
-//                 <div>
-//                     <p class="text-[12px] font-bold">${time}</p>
-//                 </div>
-//             </div>
-//         `;
-//     });
